@@ -1,5 +1,5 @@
 *{
-    /*border: 2px solid red;*/
+    border: 2px solid red;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -15,10 +15,20 @@ body{
     position: relative;
 }
 
+.main-div{
+    position: relative;
+
+}
+
 nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+nav img{
+    position: relative;
+    right:217px;
 }
 
 .nav-item{
@@ -68,5 +78,21 @@ h1{
 
 h4{
     color: #191970;
+
+}
+
+.imgs-div{
+    position: relative;
+}
+
+.vector-img{
+    position: absolute;
+    top: 500px;
+}
+
+.vector-dot{
+    position: absolute;
+    top: 500px;
+    left: 70px;
 
 }
